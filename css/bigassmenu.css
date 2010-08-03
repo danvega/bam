@@ -1,0 +1,55 @@
+body {
+    font: normal 75% arial, verdana, tahoma, sans-serif;
+    color: #777;
+    background: #fff;
+}
+
+#menu {
+    position: relative;
+    width: 600px;
+    height: 25px;
+    background: #6699CC;
+    clear: both;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    float: left;
+    display: block;
+    font: bold 1.1em arial, verdana, tahoma, sans-serif;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 558px;*/
+    margin: 25px 0 0 0;
+    padding: 20px;
+    background: #fff;
+    z-index: 100;
+    color: #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}

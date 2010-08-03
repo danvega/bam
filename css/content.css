@@ -1,0 +1,48 @@
+.submenu h2 {
+    color: red;
+}
+
+.submenu ul {
+    list-style-type: circle;
+}
+
+.submenu li {
+    display: block !important;
+}
+
+#pwrapper {
+   width:558px;
+}
+
+.submenu .books {
+    width: 140px;
+    float: left;
+}
+
+.submenu .movies {
+    width: 140px;
+    float: left;
+}
+
+.submenu .music {
+    width: 140px;
+    float: left;
+}
+
+.submenu .games {
+    width: 138px;
+    float: right;
+}
+
+.submenu a:link {
+    color: red !important;
+    padding: 0px !important;
+}
+
+.submenu a:visited {
+    color: red;
+}
+
+.submenu a:hover {
+    color: red;
+}

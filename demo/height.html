@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Big Ass Menu - Height Test</title>
+		
+	<link href="../css/bigassmenu.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8" />	
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" ></script>
+	<script type="text/javascript" src="../js/bigassmenu.js"></script>
+	
+	<script type="text/javascript">
+	$(function(){		
+		$("#menu").BigAssMenu({height:300});
+	});
+	</script>
+	
+</head>
+<body>
+
+	<div id="menu">
+		<ul>
+			<li><a id="home" href="basic.html">Home</a></li>	
+			<li>
+				<a id="about" href="#">About</a>
+				<div>
+					About Sub Menu
+				</div>					
+			</li>
+			<li>
+				<a id="products" href="#">Products</a>
+				<div>
+					Products Sub Menu
+				</div>
+			</li>
+			<li><a id="service" href="#">Service</a></li>
+			<li><a id="support" href="#">Support</a></li>
+			<li><a id="contact" href="#">Contact Us</a></li>
+		</ul>
+	</div>
+	
+	
+
+</body>
+</html>

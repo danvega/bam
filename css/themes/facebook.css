@@ -1,0 +1,106 @@
+body {
+    color: #999999;
+    background: #fff;
+}
+
+#menu {
+    position: relative;
+    width: 600px;
+    height: 25px;
+    background: #f4f4f4;
+    clear: both;
+    font: normal 65% arial, verdana, tahoma, sans-serif;
+    color: #999999;	
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    float: left;
+    display: block;
+    font: bold 1.1em arial, verdana, tahoma, sans-serif;
+    line-height: 25px;
+    color: #999999;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 25px;
+	height:30px;
+	margin-bottom:-5px;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    color: #fff;
+    text-decoration: none;
+    background: #3b5998;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 558px;
+    margin: 25px 0 0 0;
+    padding: 20px;
+    background: #3b5998;
+    z-index: 100;
+    color: #fff;
+}
+
+.submenu h2 {
+    color: #fff;
+}
+
+.submenu ul {
+    list-style-type: circle;
+}
+
+.submenu li {
+    display: block !important;
+}
+
+#pwrapper {
+    width: 600px;
+}
+
+.submenu .books {
+    width: 150px;
+    float: left;
+}
+
+.submenu .movies {
+    width: 150px;
+    float: left;
+}
+
+.submenu .music {
+    width: 150px;
+    float: left;
+}
+
+.submenu .games {
+    width: 150px;
+    float: right;
+}
+
+.submenu a:link {
+    color: #fff !important;
+    padding: 0px !important;
+	text-decoration:underline !important;
+}
+
+.submenu a:hover {
+	text-decoration:none !important;
+}
+
+.submenu a:visited {
+}
+
+
