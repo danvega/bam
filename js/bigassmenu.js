@@ -54,6 +54,10 @@
 					// when you hover over the main menu item
 					$("#" + menuid).hover(function(){
 						
+						if(hide){
+							clearTimeout(hide)
+						}
+						
 						if(include){
 							load(menuid,include);
 						}
